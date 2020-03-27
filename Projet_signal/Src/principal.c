@@ -1,5 +1,6 @@
 #include "gassp72.h"
-#define Periode_en_Tck 0
+#define Periode_en_Hz 10000
+#define Periode_en_Tck 72000000/Periode_en_Hz
 
 void timer_callback(void);
 
@@ -20,7 +21,5 @@ Active_IT_Debordement_Timer( TIM4, 2, timer_callback );
 // lancement du timer
 Run_Timer( TIM4 );
 
-while	(1)
-	{
-	}
+while(1){}
 }

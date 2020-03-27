@@ -1,0 +1,71 @@
+# User-specific uVision files
+*.opt
+*.uvopt
+*.uvoptx
+*.uvgui
+*.uvgui.*
+*.uvguix.*
+DebugConfig/
+Obj/
+RTE/
+
+# Listing files
+*.cod
+*.htm
+*.i
+*.lst
+*.map
+*.m51
+*.m66
+*.scr
+
+# Object and HEX files
+*.axf
+*.b[0-3][0-9]
+*.hex
+*.d
+*.crf
+*.elf
+*.hex
+*.h86
+*.obj
+*.o
+*.sbr
+*.Bak
+MDK-ARM/**/*.s
+!startup_stm32f407xx.s
+!startup_stm32f405xx.s
+
+# Build files
+*.bat
+*._ia
+*.__i
+*._ii
+
+# Debugger files
+*.ini
+
+# Other files
+*.build_log.htm
+*.cdb
+*.dep
+*.ic
+*.lin
+*.lnp
+*.orc
+*.pack
+*.pdsc
+*.plg
+*.sct
+*.sfd
+*.sfr
+
+# Miscellaneous
+*.tra
+*.bin
+*.fed
+*.l1p
+*.l2p
+*.iex
+*.scvd
+.DS_Store

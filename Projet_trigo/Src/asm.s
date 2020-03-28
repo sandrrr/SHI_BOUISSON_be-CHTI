@@ -2,26 +2,11 @@
 	thumb
 	import TabCos
 	import TabSin
-	export somme_carres
 	export module_carre
 ;
 	area  moncode, code, readonly
 N equ 63
 ;
-
-somme_carres proc
-	; r0 = indice d'un angle d'entrée dans la table
-	
-	ldr r1, =TabCos
-	ldr r2, =TabSin
-	ldrsh r3, [r1, r0, lsl #1]
-	ldrsh r12, [r2, r0, lsl #1]
-	mul r3, r3
-	mul r12, r12
-	add r3, r12
-	mov r0, r3
-	bx lr
-	endp
 		
 calcul_partie proc
 	; r0 = @Signal

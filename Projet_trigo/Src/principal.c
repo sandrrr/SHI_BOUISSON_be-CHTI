@@ -1,4 +1,3 @@
-int somme_carres(int);
 int module_carre(short int[], int);
 
 extern short int TabSig[];

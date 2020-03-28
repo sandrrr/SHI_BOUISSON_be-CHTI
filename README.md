@@ -20,5 +20,6 @@ Afin d'observer la table res pour l'étape 2, nous avons mis un watcher sur res 
 
 # Challenge (Branches speed_challenge et size_challenge)
 
-Résultat speed challenge : 1135 (avant nos modifications - branche master, nous avions 1740)
+Résultat speed challenge : 1015 (avant nos modifications - branche master, nous avions 1740)
+Résultat size challenge : 82 (avant nos modifications - branche master, nous avions 94)
 

@@ -1,6 +1,6 @@
 #include "gassp72.h"
 #define Periode_en_Hz 10000
-#define Periode_en_Tck 72000000/Periode_en_Hz
+#define Periode_en_Tck 72000000/Periode_en_Hz/2
 
 void timer_callback(void);
 

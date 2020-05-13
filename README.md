@@ -31,7 +31,7 @@ Afin d'observer la table res pour l'étape 2, nous avons mis un watcher sur res 
 Résultat speed challenge : 1135 (avant nos modifications - branche master, nous avions 1740)  
 Résultat size challenge : 82 (avant nos modifications - branche master, nous avions 94)  
 
-#Objectif 2 (branche master)
+# Objectif 2 (branche master)
 
 Cet objectif correspond  l'étape 3.
 

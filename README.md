@@ -33,10 +33,10 @@ Résultat size challenge : 82 (avant nos modifications - branche master, nous av
 
 # Objectif 2 (branche master)
 
-Cet objectif correspond  l'étape 3.
+Cet objectif correspond à l'étape 3.
 
 Fait et testé avec 0x33, 0x52, 0x3E, 0x3C et 0x4E comme valeur pour le parametre Duree_Ech_ticks de Init_TimingADC_ActiveADC_ff().
 
-Pour tester nous vous conseillons de mettre un point d'arret apres un changement de score dans le callback (ligne 24 du code C) afin d'apprécier chaque tir réussi ou un point d'arret au niveau de la boucle while (ligne 58 du code C). Dans le second cas, il faudra attendre quelques secondes pour que les scores aient le temps d'augmenter. Comme la valeur de Duree_Ech_ticks est 0x52 apres que le tableau des scores se soit rempli, vous devriez observer au niveau du watch de la tableau score (score des 6 pistolets) a respectivement comme valeur 1, 2, 3, 4, 5 et 15 (0xF).
+Pour tester, nous vous conseillons de mettre un point d'arrêt apres un changement de score dans le callback (ligne 24 du code C) afin d'apprécier chaque tir réussi, ou un point d'arrêt au niveau de la boucle while (ligne 58 du code C). Dans le second cas, il faudra attendre quelques secondes pour que les scores aient le temps d'augmenter. Comme la valeur de Duree_Ech_ticks est 0x52 après que le tableau des scores se soit rempli, vous devriez observer au niveau du watch du tableau score (score des 6 pistolets) qu'il a respectivement comme valeur 1, 2, 3, 4, 5 et 15 (0xF).
 
 

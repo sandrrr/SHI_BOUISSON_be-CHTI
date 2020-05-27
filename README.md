@@ -46,7 +46,9 @@ Cet objectif correspond l'étape 1.2.
 Fait et testé avec bruitverre.asm (forme du signal correspondant et periode entre chaque echantillon correcte).
 
 Pour tester nous vous conseillons de lancer le programme avec le logic analyser et vous devriez obtenir l'allure ci-contre :
+
 ![Signal Obj3](/images/spectre_obj3.png)
+
 L'amplitude est de 0 a 720, car nous avons choisi 100kHz comme frequence pour la PWM.
 Pour verifier qu'il y a bien 91us entre deux echantillons, nous vous conseillons de mettre un point d'arret quand un echantillon est load (ligne 22 du code asm). Et de calculer le temps écoulé (t1 dans Keil) entre 2 arrets, vous devriez trouver 91us.
 
@@ -56,6 +58,16 @@ Fait et testé avec 0x4E comme valeur pour le parametre Duree_Ech_ticks de Init_
 
 Pour tester, nous vous conseillons de mettre un point d'arrêt apres un changement de score dans le callback (ligne 31 du code C) afin d'apprécier chaque tir réussi. Aussi, vous devriez observer que dans le logic analyser un son est joue a chaque changement de score. 
 Le signal devrait etre le suivant :
+
 ![Signal Obj4](/images/spectre_obj4.png)
+
 Comme la valeur de Duree_Ech_ticks est 0x4E (signal 1 d'amplitude 124, signal 2 d'amplitude 248 et bruit d'amplitude 100), après que le tableau des scores se soit rempli, vous devriez observer au niveau du watch du tableau score (score des 6 pistolets) qu'il a respectivement comme valeur 1, 2, 3, 4, 5 et 15 (0xF).
+
+#Objectif 4 Bonus (branche master)
+
+Bonus (proposé par M.Nouillet) : jouer un son different pour chaque pistolet.
+
+Meme fonctionnement qu'a l'objectif 4 mais maintenant on peut observer des sons diffrents en fonction du pistolet comme le montre le signal ci-dessous :
+
+![Signal Obj4 Bonus](/images/spectre_obj4_bonus.png)
 

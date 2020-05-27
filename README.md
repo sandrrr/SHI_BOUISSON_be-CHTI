@@ -63,7 +63,7 @@ Le signal devrait etre le suivant :
 
 Comme la valeur de Duree_Ech_ticks est 0x4E (signal 1 d'amplitude 124, signal 2 d'amplitude 248 et bruit d'amplitude 100), après que le tableau des scores se soit rempli, vous devriez observer au niveau du watch du tableau score (score des 6 pistolets) qu'il a respectivement comme valeur 1, 2, 3, 4, 5 et 15 (0xF).
 
-#Objectif 4 Bonus (branche master)
+# Objectif 4 Bonus (branche master)
 
 Bonus (proposé par M.Nouillet) : jouer un son different pour chaque pistolet.
 
